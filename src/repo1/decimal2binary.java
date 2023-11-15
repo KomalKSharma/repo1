@@ -20,7 +20,7 @@ public class decimal2binary {
 		//class program
 		short c1 = 128;
 		byte a1 = (byte) c1;
-		System.out.println(a1);
+		System.out.println(a1 + "class program");
 		
 		System.out.println("decimal to hexadecimal convert");
 		
@@ -56,6 +56,7 @@ public class decimal2binary {
 
 		
 		//solve the code
+		System.out.println("solve the code");
 		byte aa = (byte)250;
 		System.out.println(aa);
 		
@@ -81,8 +82,10 @@ public class decimal2binary {
 		
 	//	byte bc = (byte)(b*3); 
 	//	System.out.println(bc);
-		
-		
+		System.out.println("new one");
+		int aaa = 128;
+		byte a = (byte) 128;
+		System.out.println(a + "class program");
 		
 	}
 
