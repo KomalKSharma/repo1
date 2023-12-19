@@ -4,8 +4,8 @@ public class ArithmeticOperators {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a = 10;
-		int b = 6;
+		float a = 3/4;
+		float b = 6/9;
 		
 		System.out.println("Sum: " + (a + b));
 		System.out.println("Difference: " + (a - b));
