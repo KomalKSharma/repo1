@@ -12,9 +12,6 @@ public class TemperatureScale {
 		float kelvin = celsius + 273;
 		System.out.println("kelvin: " + kelvin);
 		
-		
-		
-
 	}
 
 }
