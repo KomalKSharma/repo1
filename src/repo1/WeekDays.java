@@ -8,7 +8,6 @@ public class WeekDays {
 		// TODO Auto-generated method stub
 		
 		Scanner scan = new Scanner(System.in);
-		while(true) {
 			System.out.println("Please enter integer between 1 to 7 to know day name :");
 			int day = scan.nextInt();
 			switch (day) {
@@ -38,4 +37,3 @@ public class WeekDays {
 			}
 	}
 	}
-}

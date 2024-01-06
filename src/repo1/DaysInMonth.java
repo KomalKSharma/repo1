@@ -7,7 +7,6 @@ public class DaysInMonth {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
-		while(true) {
 			System.out.println("Please enter month number between 1 to 12 to know days in month :");
 			int month = scan.nextInt();
 			switch (month) {
@@ -53,5 +52,3 @@ public class DaysInMonth {
 	}
 
 	}
-
-}
