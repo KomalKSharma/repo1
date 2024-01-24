@@ -13,7 +13,7 @@ public class ArmstrongNumber {
 
 			ArmstrongNumber cal = new ArmstrongNumber();
 
-				int m1 = cal.one(1,5,2);
+				int m1 = cal.one(1,5,3);
 		     	System.out.println(m1);
 		}
 	//}
@@ -21,7 +21,7 @@ public class ArmstrongNumber {
 	int one(int...i) {
 		int sum = 0;
 		for(int a=0; a<i.length ;a++) {
-			sum = sum + i[a];
+			sum = sum + i[a]*i[a]*i[a];
 		}
 		return sum;
 	}
