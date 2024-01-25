@@ -10,6 +10,16 @@ public class TestNew {
 		
 		ChromeDriver chrome = new ChromeDriver();
 		chrome.get("https://www.google.com");
+		
+		chrome.manage().window().maximize();
+		
+		System.out.println(chrome.getTitle()); // title of the web page
+		System.out.println(chrome.getCurrentUrl());  // it gives current url of the web page
+	//	System.out.println(chrome.getPageSource()); // it gives us page source of the web page
+		
+	//	chrome.close(); // it closes active webpage only
+		
+		chrome.quit(); //complete session close i.e., closes all tabs
 	}
 
 }
