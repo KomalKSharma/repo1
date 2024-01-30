@@ -4,7 +4,6 @@ public class CallParameterizedConstructorFromDefaultConstructor {
 	
 	public static void main(String[] args) {
 		CallParameterizedConstructorFromDefaultConstructor a1 = new CallParameterizedConstructorFromDefaultConstructor();
-		System.out.println(a1);
 	}
 	
 	CallParameterizedConstructorFromDefaultConstructor(){
@@ -12,7 +11,7 @@ public class CallParameterizedConstructorFromDefaultConstructor {
 	}
 	
 	CallParameterizedConstructorFromDefaultConstructor(int i){
-		System.out.println("sysout");
+		System.out.println("sysout" + i);
 	}
 
 }
