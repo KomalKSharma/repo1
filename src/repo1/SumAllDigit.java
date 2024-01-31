@@ -9,10 +9,10 @@ public class SumAllDigit {
 		
 	}
 	
-	int sumDigits(int...i) {
+	int sumDigits(int...inputValues) {
 		int sum = 0;
-		for(int x=0; x<i.length;x++) {
-			sum = sum + i[x];
+		for(int input : inputValues) {
+			sum += input;
 		}
 		return sum;
 		
