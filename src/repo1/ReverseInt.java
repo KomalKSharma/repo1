@@ -5,12 +5,17 @@ import java.util.Scanner;
 public class ReverseInt {
 
 	public static void main(String[] args) {
-		int[] input = {3,4,6};
+		int k = 346;
+	//	int[] input = {3,4,6};
 		
 		ReverseInt result = new ReverseInt();
-		result.reverseInt(input);
+		
+	//	result.reverseNumber(k);
+		
+	//	ReverseInt result = new ReverseInt();
+	//	result.reverseInt(input);
 	}
-	
+/*	to reverse array
 	public int reverseInt(int[] input) {
 		int[] rev = {};
 		int length = rev.length;
@@ -22,5 +27,18 @@ public class ReverseInt {
 		} 
 		System.out.print("]");
 		return reverseInt;
+	}
+	
+	*/
+	
+	int reverseNumber(int...input){
+		int x=0;
+		for(int i=0; i>input.length; i--) {
+			x = input[i];
+			System.out.println(x);
+			System.out.println("hello");
+		}
+		
+		return x;
 	}
 }

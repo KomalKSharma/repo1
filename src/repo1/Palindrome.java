@@ -10,7 +10,7 @@ public class Palindrome {
 		System.out.println("enter input to check palindrome : " );
 		int k1 = scan.nextInt();
 		
-		int k2 = Integer.reverse(k1);
+		int k2 = Integer.reverseBytes(k1);
 		
 		System.out.println("reverse" + k2);
 		
