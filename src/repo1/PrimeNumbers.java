@@ -3,14 +3,35 @@ package repo1;
 public class PrimeNumbers {
 
 	public static void main(String[] args) {
-		int k = 2;
-		int count = 30;
+		
+		int num = 20; 
+	    int count;  
+
+	    for (int i = 2; i <= num; i++) {
+	      count = 0; 
+
+	      for (int j = 2; j < i; j++) {
+	        if (i % j == 0) {
+	          count++;  
+	          break; 
+	        }
+	      }
+	      if (count == 0) {
+	        System.out.println(i);  
+	      }
+	    }
+		
+		
+		
+		/*int k = 2;
+		int count = 20;
 		for(int i = 2; i<=count; i++) {
 			if(k%2==1 && k%1==0) {
 				System.out.println(k);
 			}
 			++k;
-		}
+		} */
+		
 		
 		//PrimeNumbers result = new PrimeNumbers();
 		//result.Prime();
